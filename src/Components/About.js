@@ -5,13 +5,13 @@ const About = () => {
     return (
         <>
             <section>
-                <div className="flex flex-wrap flex-row">
+                <div className="grid  xsm:grid-rows-2 md:grid-cols-2  xsm:text-green-500 sm:text-amber-900  md:text-red-600">
                     {/* col1 */}
-                    <div className="col1 max-w-[50%] px-24 pr-24">
+                    <div className="col1 sm:mb-auto  md:mb-auto md:px-24 xsm:px-6 xsm:text-center  ">
 
                         {/* heading */}
                         <div className="heading mb-10">
-                            <h2 className='mb-5 text-6xl text-[#1e247e] font-semibold'>We Connect People With Their Dreams</h2>
+                            <h2 className='mb-5 xsm:text-3xl xsm:text-center xl md:text-6xl text-[#1e247e] font-semibold'>We Connect People With Their Dreams </h2>
                             <p className='font-semibold mt-9 text-lg leading-7'>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt soluta nobis assumenda labore quod maxime.</p>
                         </div>
 
@@ -41,9 +41,11 @@ const About = () => {
 
                     </div>
 
-                    <div className="img flex  max-w-[50%] w-100% px-4">
-                        <img src={img2} alt="image" />
+                    <div className=" col 2 img  w-[90%] xsm:m-auto  ">
+                        <img classname="xsm: px-5 " src={img2} alt="image" />
                     </div>
+
+
                 </div>
             </section>
         </>
