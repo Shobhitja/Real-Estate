@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <section>
-                <div className="grid  xsm:grid-rows-2 md:grid-cols-2  xsm:text-green-500 sm:text-amber-900  md:text-red-600">
+                <div className="grid  xsm:grid-rows-2 md:grid-cols-2 ">
                     {/* col1 */}
                     <div className="col1 sm:mb-auto  md:mb-auto md:px-24 xsm:px-6 xsm:text-center  ">
 
